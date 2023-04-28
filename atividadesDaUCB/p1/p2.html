@@ -9,10 +9,40 @@
 <body>
     
     <style>
-        body{
+        .imagem1{
+            transition: all 1s;
+            cursor: pointer;
+        }
+        
+        .imagem1:hover{
+            
+            -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+            
+            /*
+            -webkit-transform: translate(1000px);
+            transform: translate(1000px);
+            */
             
         }
-    </style>
+
+        .imagem2{
+                transition: all 0.5s;
+                cursor: pointer;
+            }
+            
+            .imagem2:hover{
+                -webkit-filter: blur(5px);
+                filter: blur(5px);
+            }
+
+        </style>
+        
+
+        <img class="imagem1" src="https://1.bp.blogspot.com/-q28AeeLys6k/W43ScrP4eJI/AAAAAAAAC7Q/gIsjX2Hq3DMjHco_at-m6enseMMMiC_ywCLcBGAs/s1600/imagem1.gif">
+
+        <img class="imagem2" src="https://3.bp.blogspot.com/-rWYSVLDYqfg/W43XH9TzJXI/AAAAAAAAC7c/WRw9B31HQakeAtbg19LcQvGHugdRyQJmgCLcBGAs/s1600/imagem2.jpg">
+
 
 </body>
 </html>
