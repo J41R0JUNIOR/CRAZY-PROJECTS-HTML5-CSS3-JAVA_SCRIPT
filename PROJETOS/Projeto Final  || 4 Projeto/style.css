@@ -1,0 +1,20 @@
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.headerAcima{
+    background-image: url();
+    background-color: rgb(0, 4, 246);
+    padding: 20px;
+    height: 10%;
+
+    margin: 0;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
