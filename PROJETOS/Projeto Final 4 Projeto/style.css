@@ -2,19 +2,47 @@ header{
     background-color: rgb(255, 255, 255);
     padding: 20px;
 }
+header.a{
+    background-color: rgb(0, 0, 148);
+}
 .headerAcima{
-    background-image: url();
+    
     background-color: rgb(0, 4, 246);
     padding: 20px;
-    height: 10%;
-
+    height: 20%;
     margin: 0;
+    background-image: url("Imagens/1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
 }
+
+body{
+    
+    background-image: linear-gradient(to top, rgb(0, 203, 41), rgb(21, 24, 219));
+    background-size:cover;
+  }
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
 }
-h1{
-    color: rgb(255, 255, 255);
+
+div {
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+div.a{
+    margin-top: -50px;
+    text-align: center;
+}
+div.quadrado {
+    background-color: rgb(255, 255, 255); /* Define a cor de fundo do quadrado */
+  }
+
+h2.a{
+    font-size: 28px;
 }
