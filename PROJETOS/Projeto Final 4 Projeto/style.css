@@ -18,8 +18,7 @@ header.a{
 }
 
 body{
-    
-    background-image: linear-gradient(to top, rgb(0, 203, 41), rgb(21, 24, 219));
+    background-image: linear-gradient(to top, rgb(26, 160, 172),rgb(3, 53, 110), rgb(26, 160, 172));
     background-size:cover;
   }
 body, html {
@@ -36,13 +35,17 @@ div {
     margin-bottom: 10px;
   }
 div.a{
-    margin-top: -50px;
+    margin-top: -70px;
     text-align: center;
 }
 div.quadrado {
-    background-color: rgb(255, 255, 255); /* Define a cor de fundo do quadrado */
+    background-color: azure;
+    border-radius: 15px;
   }
 
 h2.a{
-    font-size: 28px;
+    text-align: justify;
+}
+h1.a{
+    padding-left: 15%;
 }
