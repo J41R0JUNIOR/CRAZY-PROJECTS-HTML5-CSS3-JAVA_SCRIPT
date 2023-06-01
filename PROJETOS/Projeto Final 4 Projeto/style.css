@@ -45,7 +45,18 @@ div.quadrado {
 
 h2.a{
     text-align: justify;
+    font-family:'Times New Roman', Times, serif;
 }
 h1.a{
-    padding-left: 15%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.imagem1 {
+    border-radius: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.imagem1:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
