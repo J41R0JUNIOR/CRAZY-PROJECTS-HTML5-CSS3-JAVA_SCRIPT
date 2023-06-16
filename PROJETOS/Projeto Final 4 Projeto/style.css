@@ -5,11 +5,9 @@ header{
 header.a{
     background-color: rgb(255, 255, 255);
     padding-top: 0,1%;
-
 }
 .headerAcima{
-    
-    padding: 20px;
+    padding: 400px;
     height: 20%;
     margin: 0;
     background-image: url("Imagens/2.jpg");
@@ -18,8 +16,7 @@ header.a{
     height: 350px;
 }
 .headerAcima2{
-    
-    padding: 20px;
+    padding: 400px;
     height: 20%;
     margin: 0;
     background-image: url("Imagens/1.jpg");
@@ -28,7 +25,15 @@ header.a{
     height: 350px;
 }
 .headerAcima3{
-    
+    padding: 400px;
+    height: 20%;
+    margin: 0;
+    background-image: url("Imagens/3.jpg");
+    background-position-y: 44%;
+    background-size: cover;
+    height: 350px;
+}
+.headerAcima4{
     padding: 20px;
     height: 20%;
     margin: 0;
@@ -64,9 +69,9 @@ div.a{
 }
 div.b{
     margin-top: -20px;
-    margin-right: 1px;
+    margin-right: 5px;
     margin-left: -85px;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
 }
 
 div.quadrado {
@@ -79,6 +84,13 @@ div.quadradoClaro {
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 15px;
     opacity: 0,5;
+}
+div.card{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    padding-bottom: 5%;
+    height: 400px;
+    width: 250px;
 }
 
 h2.a{
@@ -113,13 +125,17 @@ p.a{
     transform: scale(1.1);
 }
 
-table.principal {
-    border: 1;
+table.a {
     width: 100%;
-}
-
-td.a{
+    height: 100vh;
+    display: table;
     text-align: center;
+}
+td.a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
 }
 
 fieldset{
