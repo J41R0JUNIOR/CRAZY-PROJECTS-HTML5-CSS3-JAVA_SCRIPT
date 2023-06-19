@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projeto Final</title>
+  <title>Curiosidades</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="shortcut icon" href="Imagens/favicon.ico" type="imagem/x-icon">
@@ -21,22 +21,28 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         
-        <a class="navbar-brand" href="https://www.linkedin.com/in/jairo-j%C3%BAnior-116275207">Jairo Jr</a>
+        <a class="navbar-brand" href="index.html"><img src="Imagens/logs.png"></a>
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
             
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#inicio">Iniciar leitura</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#critica">Crítica</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Página Inicial</a>
+            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mais</a>
               <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="contato.html">Contatos</a></li>
                 <li><a class="dropdown-item" href="#">Curiosidades</a></li>
-                <li><a class="dropdown-item" href="https://www.linkedin.com/in/jairo-j%C3%BAnior-116275207">Linkedin</a></li>
               </ul>
             </li>
           </ul>
@@ -45,11 +51,38 @@
     </nav>
 
 
-    <header class="headerAcima4"></header>
+    <div class="b">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+  
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <header class="headerAcima"></header>
+          </div>
+          <div class="carousel-item">
+            <header class="headerAcima2"></header>
+          </div>
+          <div class="carousel-item">
+            <header class="headerAcima3"></header>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
     
 
-    <div class="quadrado">
-      
+    <div id="inicio" class="quadrado">
       <div class="a">
         <h1 class="a">Tartarugas</h1>
         <br><br><br>
@@ -98,7 +131,7 @@
      
     
       
-    <header class="a">
+    <header class="a" id="critica">
       <h1>Nos mande a sua crítica aqui</h1>
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Email address</label>
